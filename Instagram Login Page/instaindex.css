@@ -1,0 +1,308 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --inputcolor: #fafafa;
+    --bgcolor: #ffffff;
+    --a1color: #0094f7;
+    --a2color: #38508f;
+    --btncolor: #4db5fa;
+    --outcolor: #38508f;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+main section{
+    margin: 32px 0px 0px 0px;
+    padding: 0px 0px 32px 0px;
+    display: flex;
+    justify-content: center;
+    overflow: visible;
+}
+
+main section .imgin{
+    margin: 0px 18px 12px 0px;
+}
+
+main section .imgin img{
+    height: 590px;
+}
+
+main section .formn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section .formn .formbx1{
+    margin: 12px 0px 10px 0px;
+    padding: 0px 40px 0px 40px;
+    border: .5px solid rgba(128, 128, 128, 0.24);
+}
+
+main section .formn .formbx1 .logoimgg{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-bottom: 22px;
+} 
+
+main section .formn .formbx1 .logoimgg a img{
+    height: 85px;
+}
+
+main section .formn .formbx1 .frm form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+main section .formn .formbx1 .frm form input{
+    outline: none;
+    border: none;
+    padding: 11px 8px 11px 8px;
+    border: .5px solid rgba(128, 128, 128, 0.24);
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: 100;
+    background-color: var(--inputcolor);
+}
+
+main section .formn .formbx1 .frm form input::placeholder{
+    font-size: 12px;
+}
+
+main section .formn .formbx1 .frm form button{
+    padding: 8px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: var(--btncolor);
+    color: var(--bgcolor);
+    border-radius: 9px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+main section .formn .formbx1 .frm form .orrr{
+    margin: 15px 0px 25px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+main section .formn .formbx1 .frm form .orrr .break1{
+    border-top: 1.5px solid rgba(128, 128, 128, 0.388);
+    margin-right: 5px;
+    height: 2px;
+    overflow: hidden;
+}
+
+main section .formn .formbx1 .frm form .orrr .break2{
+    border-top: 1.5px solid rgba(128, 128, 128, 0.388);
+    margin-right: 5px;
+    height: 2px;
+    overflow: hidden;
+}
+
+main section .formn .formbx1 .frm form .orrr .center{
+    font-size: 14px;
+    color: grey;
+    font-weight: 500;
+}
+
+main section .formn .formbx1 .frm form .otherfb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+main section .formn .formbx1 .frm form .otherfb i{
+    font-size: 22px;
+    margin-right: 5px;
+    cursor: pointer;
+    color: var(--a2color);
+}
+
+main section .formn .formbx1 .frm form .otherfb a{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--a2color);
+}
+
+main section .formn .formbx1 .frm form .forgot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+main section .formn .formbx1 .frm form .forgot a{
+    font-size: 12px;
+    font-weight: 100;
+    color: var(--a2color);
+}
+
+main section .formbx2{
+    padding: 25px 80px 25px 80px;
+    border: .5px solid rgba(128, 128, 128, 0.24);
+}
+
+main section .formbx2 p{
+    font-size: 14px;
+}
+
+main section .formbx2 a{
+    color: var(--a1color);
+    font-weight: 500;
+}
+
+main section .formbx3{
+    margin: 20px 0px 15px 0px;
+}
+
+main section .formbx3 p{
+    font-size: 14px;
+}
+
+@media screen and (max-width: 920px) {
+    section .imgin {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+body{
+    background-color:  var(--bgcolor);
+    height: 131vh;
+}
+
+.mainbx{
+    height: 105vh;
+    margin: 32px 0px;
+}
+
+.mainbx section{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.mainbx section .imgin{
+    height: 100%;
+    width: 51%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mainbx section .imgin img{
+    height: 93%;
+}
+
+.mainbx section .formn{
+    height: 100%;
+    width: 49%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 11px 0px 10px 18px;
+}
+
+.mainbx section .formn .formbx1{
+    height: 67%;
+    width: 58%;
+    border: 0.5px solid rgba(128, 128, 128, 0.352);
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainbx section .formn .formbx1 .logoimgg{
+    justify-self: center;
+    padding-top: 10px;
+}
+
+.mainbx section .formn .formbx1 .logoimgg a{
+    height: 23%;
+    width: 20%;
+}
+
+.mainbx section .formn .formbx1 .logoimgg a img{
+    height: 23%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .mainbx section .imgin {
+      display: none;
+    }
+} */
