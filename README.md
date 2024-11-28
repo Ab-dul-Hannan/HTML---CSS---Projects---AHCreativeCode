@@ -9,5 +9,6 @@ This repository serves as:
 
 ## 📂 Projects Included  
 Here’s a list of the projects (updated regularly):  
-1. **Responsive Instagram Login Page Design** - A modern, responsive replica of Instagram's login page with clean design and layout.    
-2. More projects coming soon...   
+1. **Responsive Instagram Login Page Design** - A modern, responsive replica of Instagram's login page with clean design and layout.  
+2. **Elegant Glassmorphic Login Page** - A sleek and modern login design featuring a captivating glassmorphism effect for a trendy aesthetic.
+3. More projects coming soon...   
