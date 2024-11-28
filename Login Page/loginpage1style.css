@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* change this color according to the background theme and you are good to go */
+::selection{
+    color: palevioletred;
+    background-color: pink;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(179, 61, 179);
+    /* upload any background image you want */
+    background-image: url(images/1.png);
+    /* let you make the image cover on the body area */
+    background-size: cover;
+    /* make the image align center */
+    background-position: center;
+}
+
+.form{
+    color: white;
+    /* make the background of an element transparent */
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    /* let you add graphical effects such as blur, color shift etc */
+    backdrop-filter: blur(30px);
+    width: 380px;
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+.form h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.form .input{
+    width: 100%;
+    height: 40px;
+    margin: 20px 0px;
+    /* let the container to move freely as you want will cause it to be adjusted away from its normal position */
+    position: relative;
+}
+
+.form .input input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    padding: 25px;
+    color: white;
+}
+
+.form .input input::placeholder{
+    color: white;
+}
+
+.form .input i{
+    /* let you make the container stick to the parent if it has any property of postion or other like filter etc */
+    position: absolute;
+    /* same as margin but used when we use the position property */
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+}
+
+.form .imp{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 15px 10px 15px 10px;
+}
+
+.form .imp label input{
+    /* used to change the checkbox selection color or radio color */
+    accent-color: white;
+    margin-right: 4px;
+}
+
+.form .imp a{
+    text-decoration: none;
+    color: white;
+}
+
+.form .imp a:hover{
+    text-decoration: underline;
+}
+
+.form button{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form .register{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.form .register a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.form .register a:hover{
+    text-decoration: underline;
+}
